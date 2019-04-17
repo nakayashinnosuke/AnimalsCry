@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimalsCry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="BackImage" translatesAutoresizingMaskIntoConstraints="NO" id="kkW-MM-fku">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppf-bo-tnr">
+                                <rect key="frame" x="7" y="452" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cat"/>
+                                <connections>
+                                    <action selector="btn_cあt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AZ2-Ro-ddU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfw-3J-QX9">
+                                <rect key="frame" x="258" y="50" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Elefant"/>
+                                <connections>
+                                    <action selector="btn_elephant:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rGz-qh-soO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myd-gi-DOs">
+                                <rect key="frame" x="132" y="173" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="mouse"/>
+                                <connections>
+                                    <action selector="btn_mouse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HBE-qC-uhw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbM-BW-SNf">
+                                <rect key="frame" x="7" y="286" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="lion"/>
+                                <connections>
+                                    <action selector="btn_lion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ndj-wZ-9xW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caM-WH-Shk">
+                                <rect key="frame" x="7" y="50" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="dog"/>
+                                <connections>
+                                    <action selector="btn_Dog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vZT-cy-oXw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vas-hG-lkk">
+                                <rect key="frame" x="132" y="578" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cow"/>
+                                <connections>
+                                    <action selector="btn_cow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0W-Nv-Psj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iB-Mx-TyJ">
+                                <rect key="frame" x="258" y="452" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="goat"/>
+                                <connections>
+                                    <action selector="btn_goat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tY1-MK-f7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GO-B1-7En">
+                                <rect key="frame" x="258" y="696" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sheep"/>
+                                <connections>
+                                    <action selector="btn_sheep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37J-sq-Qo0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8Q-nf-xh0">
+                                <rect key="frame" x="258" y="286" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pig"/>
+                                <connections>
+                                    <action selector="btn_pig:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqk-AN-kHb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ia4-Tf-cXW">
+                                <rect key="frame" x="7" y="696" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="house"/>
+                                <connections>
+                                    <action selector="btn_house:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lke-rk-G7o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kkW-MM-fku" secondAttribute="trailing" id="BOh-3x-yle"/>
+                            <constraint firstItem="kkW-MM-fku" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LcG-h5-Jpd"/>
+                            <constraint firstItem="kkW-MM-fku" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lQ2-pN-keT"/>
+                            <constraint firstAttribute="bottom" secondItem="kkW-MM-fku" secondAttribute="bottom" id="wB3-nj-0FO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackImage" width="811" height="1192"/>
+        <image name="Elefant" width="480" height="480"/>
+        <image name="cat" width="480" height="480"/>
+        <image name="cow" width="150" height="150"/>
+        <image name="dog" width="480" height="480"/>
+        <image name="goat" width="480" height="480"/>
+        <image name="house" width="150" height="150"/>
+        <image name="lion" width="480" height="480"/>
+        <image name="mouse" width="480" height="480"/>
+        <image name="pig" width="480" height="480"/>
+        <image name="sheep" width="480" height="480"/>
+    </resources>
+</document>
